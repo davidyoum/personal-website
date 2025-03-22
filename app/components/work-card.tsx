@@ -3,17 +3,14 @@ import React from 'react';
 interface Subtitle {
     time: string;
     company: string;
-    description: string;
   }
   
   interface WorkCardProps {
     title: string;
     subtitle: Subtitle; // Updated type definition
-    image: string;
-    link: string;
   }
   
-  export default function WorkCard({ title, subtitle, image, link }: WorkCardProps) {
+  export default function WorkCard({ title, subtitle}: WorkCardProps) {
     return (
       <div className='flex justify-center'>
           <div className='w-full bg-transparent rounded-md'>

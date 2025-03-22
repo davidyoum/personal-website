@@ -5,107 +5,93 @@ import Image from "next/image";
 
 export default function About() {
     return (
-      <div className="w-3/4 mx-auto">
+      <div className="mx-auto">
         <NavigationBar />
-        <div className="flex flex-col w-[80%] mx-auto items-center mt-12">
-          <Image 
-            className="rounded-md" 
-            src="/images/about/me.jpg" 
-            alt="About" 
-            width={300} 
-            height={300} 
-            style={{ 
-              width: 'auto',
-              height: 'auto'
-            }}
-          />
-
-          <div className="mt-8 text-xl font-instrument text-center">
-            How I started.
+        <div className="flex flex-col max-w-[900px] mx-auto items-center mt-12">
+          <div className="text-5xl font-instrument text-center">
+            About Me
           </div>
 
-          <div className="mt-3 font-instrument text-center">
-          My coding journey started when I was in elementary school working on my first Roblox game. Sadly, at the time I didn't know documentation and other resources were available so stopped afterward. In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher.
-          From there, I went on to learn Python and Java in class while self-teaching myself C++. Then, the rest was history with college studying at Penn State University.
+          <div className="text-center text-gray-400 text-xl mt-4 font-instrument">
+            Hi my name is David. Here is a more personal look into me and nothing really professional is here. 
+            I would be more than happy to talk about any of the topics I wrote about so, shoot me a message!
           </div>
 
-          <div className="mt-8 font-instrument text-center">
-            From there, I went on to learn Python and Java in class while self-teaching myself C++. 
-            Then, the rest was history with college studying at Penn State University.
-          </div>
-
-          <Image 
-            className="rounded-md mt-8" 
-            src="/images/about/snowboard.gif" 
-            alt="About" 
-            width={400} 
-            height={300} 
-            style={{ 
-              width: 'auto',
-              height: 'auto'
-            }}
-          />
-
-          <div className="mt-8 text-xl font-instrument text-center">
-            My hobbies.
-          </div>
-
-          <div className="mt-3 font-instrument text-center">
-            Some of my hobbies include snowboarding, playing soccer/basketball, car detailing, and playing video games.
-          
-            <div className="text-gray-800 font-instrument text-center">(and eating food)</div>
-          </div>
-
-          <div className="flex flex-col md:flex-row justify-center gap-4 items-center">
+          <div className="flex flex-col lg:flex-row gap-4 items-center">
             <Image 
               className="rounded-md mt-8" 
-              src="/images/thorlabs/thorlabs-dog.png" 
-              alt="Thorlabs Dog" 
-              width={200} 
+              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0osNNIaih2aqWcPIlp79XQvLH6MfVC5TYwA8" 
+              alt="About" 
+              width={300} 
               height={300} 
               style={{ 
                 width: 'auto',
                 height: 'auto'
               }}
             />
+
+            <div className="flex flex-col px-8 gap-4">
+              <div className="mt-8 text-xl font-bold font-instrument">
+                How I started.
+              </div>
+
+              <div className="mt-3 font-instrument">
+                My coding journey started when I was in elementary school working on my first Roblox game. Sadly, at the time I didn't know documentation and other resources were available so stopped afterward. In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher.
+                From there, I went on to learn Python and Java in class while self-teaching myself C++. Then, the rest was history with college studying at Penn State University.
+              </div>
+
+              <div className="mt-8 font-instrument">
+                From there, I went on to learn Python and Java in class while self-teaching myself C++. 
+                Then, the rest was history with college studying at Penn State University.
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
             <Image 
               className="rounded-md mt-8" 
-              src="/images/acm/acm.png" 
-              alt="ACM Logo" 
-              width={200} 
-              height={100}
+              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGFwunWuuA4xj6YWCdQwuFLT32svS7G0fBiUo1" 
+              alt="Snowboarding" 
+              width={700}
+              height={900}
               style={{ 
-                objectFit: 'contain', 
-                maxWidth: '100%',
-                width: 'auto',
+                width: '500px',
                 height: 'auto'
               }}
             />
-          </div>
 
-          <div className="mt-8 text-xl font-instrument text-center">
-            My experiences.
-          </div>
+            <div className="flex flex-col mt-10 flex-1 justify-start">
+              <div className="text-xl font-bold font-instrument">
+                My hobbies and interests.
+              </div>
 
-          <div className="mt-3 font-instrument text-center">
-            I have had the opportunity to work at Thorlabs as a Web Development Intern and Penn State ACM as a Web Development Lead.
-          </div>
 
-          <div className="mt-8 text-xl font-instrument text-center">
-            Thank you for reading!
+              <div className="flex ml-3 flex-row gap-4">
+                <div className="mt-3 font-instrument">
+                    My hobbies include:
+                    <ul className="list-disc mt-2 space-y-1">
+                    <li>Snowboarding</li>
+                    <li>Sports (Soccer, Basketball, Track)</li>
+                    <li>Car Detailing</li>
+                    <li>Video Games (FIFA, Valorant)</li>
+                    <li>Cooking</li>
+                    <li className="text-gray-900">Eating food!</li>
+                  </ul>
+                </div>
+
+                <div className="mt-3 font-instrument">
+                  My interests include:
+                  <ul className="list-disc ml-6 mt-2 space-y-1">
+                    <li>Sports (mainly soccer)</li>
+                    <li>Fashion</li>
+                    <li>Cars</li>
+                    <li>Computers</li>
+                    <li>AI</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
           </div>
-          
-          <Image 
-            className="rounded-md mt-8" 
-            src="/images/about/signiture.png" 
-            alt="About" 
-            width={300} 
-            height={300} 
-            style={{ 
-              width: 'auto',
-              height: 'auto'
-            }}
-          />
         </div>
         <Footer />
 

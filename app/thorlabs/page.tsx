@@ -1,5 +1,6 @@
 import Footer from "../components/footer";
 import Image from "next/image";
+import { Badge } from "@/components/ui/badge";
 
 export default function Thorlabs() {
     return (
@@ -27,13 +28,15 @@ export default function Thorlabs() {
         </div>
 
         {/* Full-width banner at top */}
-        <div className="w-full mt-16 px-4 sm:px-16 flex justify-center">
-          <div className="w-full sm:w-[1200px]">
-            <div className="w-full h-[60vh] relative rounded-lg overflow-hidden">
-              <img 
+        <div className="w-full mt-16 flex justify-center">
+          <div className="w-full h-full max-h-[60vh] max-w-[1400px]">
+            <div className="w-full h-[60vh] relative px-16 overflow-hidden">
+              <Image 
                 src="/images/thorlabs/thorlabs-website.png" 
                 alt="Thorlabs Banner" 
-                className="absolute inset-0 w-full h-full object-cover object-center" 
+                className="mx-auto w-full rounded-lg h-full object-cover object-top" 
+                width={1000}
+                height={1000}
               />
             </div>
           </div>
@@ -51,7 +54,8 @@ export default function Thorlabs() {
                   <h3 className="text-gray-600">Description</h3>
                   <div className="text-white">
                     Built components for an updated website for the Mobile Lab Team and 
-                    created an internal tool to change the website's content.
+                    created an internal tool to change the website's content. Excited to say
+                    everything I worked on is pushed to production.
                   </div>
 
                   <h3 className="text-gray-600">Client</h3>
@@ -66,7 +70,18 @@ export default function Thorlabs() {
 
                   <h3 className="text-gray-600">Technologies</h3>
                   <div className="text-white">
-                    Vue.js, TypeScript, ColdFusion, SQL, JSON
+                    <div className="flex flex-row gap-2 flex-wrap">
+                        <Badge>Vue.js</Badge>
+                        <Badge>TypeScript</Badge>
+                        <Badge>ColdFusion</Badge>
+                        <Badge>SQL</Badge>
+                        <Badge>JSON</Badge>
+                        <Badge>Bootstrap</Badge>
+                        <Badge>HTML/CSS</Badge>
+                        <Badge>Figma</Badge>
+                        <Badge>Azure</Badge>
+                        <Badge>TailwindCSS</Badge>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -77,10 +92,10 @@ export default function Thorlabs() {
           <div className="w-full lg:w-2/3 space-y-16">
             <div>
               <div className="aspect-video bg-[#2a2a2a] rounded-lg overflow-hidden">
-                <Image src="/images/thorlabs/dropdown.png" width={1000} height={1000} alt="Thorlabs Website" />
+                <Image src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG75AEpQ4rqtnIoKHsRXYSr5eCyih6a7BZb1m2" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Utilizing Bootstrap, created an accordian dropdown for the FAQ sections. Passing data through using JSON.
+                Developed a reusable accordion component using Bootstrap that can be implemented across the website. Built with dynamic data handling through JSON, making it flexible for various content sections beyond just FAQs.
               </p>
             </div>
             
@@ -119,7 +134,7 @@ export default function Thorlabs() {
                 <Image src="/images/thorlabs/bubble_text.png" width={1000} height={1000} alt="Thorlabs Website" />
               </div>
               <p className="mt-4 text-gray-300 text-lg">
-                Created a simple bubble text component to display the key points more engagingly.
+                Created a simple bubble text component following the design team's mockups and specifications, implementing their visual design to display key points more engagingly.
               </p>
             </div>
 

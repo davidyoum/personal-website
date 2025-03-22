@@ -9,7 +9,7 @@ export default function NavigationBar() {
 
     return (
       <div suppressHydrationWarning>
-        <div className="flex mt-5 font-inter justify-between items-center w-3/4 mx-auto">
+        <div className="flex pt-5 font-inter justify-between items-center w-3/4 mx-auto">
           <div>
               <div className="hidden sm:block font-sans text-xl">
                   David Youm
@@ -26,7 +26,7 @@ export default function NavigationBar() {
           </div>
   
           <div className="inline-flex space-x-6">
-              <a href="https://drive.google.com/file/d/1_cMfKfDFl3s3EmWlwMnwqqLlHVfw3yZj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="hidden md:flex items-center gap-2">
+              <a href="/resume" className="hidden md:flex items-center gap-2">
                   Resume
                   <Image 
                       src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/63e0b50ea0956f4526968ef1_23-icon-external.svg"
@@ -62,7 +62,7 @@ export default function NavigationBar() {
                       isOpen ? "opacity-100 visible" : "opacity-0 invisible"
                   }`}>
                       {/* Resume link - show only on medium and smaller screens */}
-                      <a href="https://drive.google.com/file/d/1_cMfKfDFl3s3EmWlwMnwqqLlHVfw3yZj/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="md:hidden flex items-center gap-2 px-4 py-2 text-white mx-2 rounded-md hover:bg-white/10">
+                      <a href="/resume" target="_blank" className="md:hidden flex items-center gap-2 px-4 py-2 text-white mx-2 rounded-md hover:bg-white/10">
                           Resume
                           <Image 
                               src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/63e0b50ea0956f4526968ef1_23-icon-external.svg"

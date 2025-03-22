@@ -21,15 +21,15 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-3/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
+        <div className="w-4/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
           <div className="space-y-4">
             <div>
-              Hi, I'm David — a full-stack developer crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
+              Hi, I'm David — a full-stack developer (focused on frontend) crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
             </div>
             <div>
-              Based out of New Jersey, previous intern at 
+              Based out of Northern New Jersey, previous intern at 
               <Image 
-                src="/images/thorlabs/thorlabs-logo.png" 
+                src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ" 
                 alt="Thorlabs Logo" 
                 width={105}
                 height={105}
@@ -54,17 +54,37 @@ export default function Home() {
         <div>
           <div className="w-full mx-auto mt-32 items-center">
             <div className="w-5/6 mx-auto text-5xl mb-4">Experience</div>
+
+            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
+              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
+                <WorkCard 
+                  title="Incoming Web Developer Intern for 2025"
+                  subtitle={{
+                    company: "Thorlabs",
+                    time: "2025",
+                  }}  
+                />
+                <Image 
+                  src=""
+                  width={500}
+                  height={500}
+                  alt="Thorlabs Website Preview"
+                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
+                    w-[500px] h-[280px]
+                    sm:hover:scale-95 transition-transform"
+                  style={{ objectFit: 'cover' }}
+                />
+              </a>
+            </div>
+
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#93d2fe]">
               <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
                 <WorkCard 
-                  title="Website Overhaul - Coming Soon"
+                  title="Website Overhaul & Design Work - Coming Soon"
                   subtitle={{
                     company: "Penn State ACM",
                     time: "2025",
-                    description: "E"
                   }}
-                  image="https://via.placeholder.com/300"
-                  link="https://example.com"
                 />
                 <Image 
                   src="/images/acm/acm-web.png"
@@ -79,7 +99,7 @@ export default function Home() {
               </a>
             </div>
 
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
+            <a href="/thorlabs" className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
               <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between"
                 href="/thorlabs">
                 <WorkCard 
@@ -87,10 +107,7 @@ export default function Home() {
                   subtitle={{
                     company: "Thorlabs",
                     time: "2024",
-                    description: "E"
                   }}
-                  image="https://via.placeholder.com/300"
-                  link="https://example.com"
                 />
                 <Image 
                   src="/images/thorlabs/thorlabs-website.png"
@@ -103,7 +120,7 @@ export default function Home() {
                   style={{ objectFit: 'cover' }}
                 />
               </a>
-            </div>
+            </a>
           </div>
 
           <div className="w-full mx-auto mt-32 items-center">
@@ -115,10 +132,7 @@ export default function Home() {
                   subtitle={{
                     company: "Tally Sports",
                     time: "2024",
-                    description: "E"
                   }}
-                  image="https://via.placeholder.com/300"
-                  link="https://example.com"
                 />
                 <Image 
                   src="/images/tally.gif"
