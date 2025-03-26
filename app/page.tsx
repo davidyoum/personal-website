@@ -58,7 +58,7 @@ export default function Home() {
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
               <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
                 <WorkCard 
-                  title="Incoming Web Developer Intern for 2025"
+                  title="Incoming Software Engineer Intern, Full-stack for 2025"
                   subtitle={{
                     company: "Thorlabs",
                     time: "2025",

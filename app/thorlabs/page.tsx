@@ -48,7 +48,7 @@ export default function Thorlabs() {
           <div className="w-full lg:w-1/3 space-y-8">
             <div className="lg:sticky lg:top-0 lg:backdrop-blur-sm py-8 lg:-mx-8 lg:px-8">
               <h1 className="text-4xl sm:text-6xl font-bold mb-4">Thorlabs</h1>
-              <h2 className="text-xl sm:text-2xl mb-8">Web Developer Intern</h2>
+              <h2 className="text-xl sm:text-2xl mb-8">Software Engineer Intern, Full-stack</h2>
               <div className="text-base font-instrument sm:text-lg text-gray-600">
                 <div>
                   <h3 className="text-gray-600">Description</h3>
