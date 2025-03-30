@@ -87,7 +87,7 @@ export default function Home() {
                   }}
                 />
                 <Image 
-                  src="/images/acm/acm-web.png"
+                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGMhiUR4Z1hHtRVKvpfCAJ5QlgGiYIPsxjczeD"
                   width={500}
                   height={500}
                   alt="ACM Website Preview"

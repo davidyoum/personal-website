@@ -150,6 +150,10 @@ export default function Thorlabs() {
             
           </div>
         </div>
+
+        <div className="text-gray-400 text-center text-xl mt-24 text-md">
+            Lets talk more about Thorlabs <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
+        </div>
         <Footer />
       </div>
     );

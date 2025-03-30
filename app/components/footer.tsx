@@ -16,7 +16,7 @@ export default function Footer() {
                         <div className="flex justify-center mt-2">
                             <div className="flex items-center bg-[#313131] w-fit h-fit p-1 pl-2 pr-2 rounded-xl justify-center gap-2 mb-2">
                                 <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse"></div>
-                                <span className="bg-clip-text text-sm text-gray-400">v1.1.0a</span>
+                                <span className="bg-clip-text text-sm text-gray-400">v1.1.3a</span>
                             </div>
                         </div>
                     </div>

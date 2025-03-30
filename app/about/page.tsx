@@ -17,32 +17,40 @@ export default function About() {
             I would be more than happy to talk about any of the topics I wrote about so, shoot me a message!
           </div>
 
-          <div className="flex flex-col lg:flex-row gap-4 items-center">
-            <Image 
-              className="rounded-md mt-8" 
-              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0osNNIaih2aqWcPIlp79XQvLH6MfVC5TYwA8" 
-              alt="About" 
-              width={300} 
-              height={300} 
-              style={{ 
-                width: 'auto',
-                height: 'auto'
-              }}
-            />
+          <div className="flex flex-col lg:flex-row gap-4 items-center w-full">
+            <div className="flex flex-col gap-2 w-[1200px]">
+              <Image 
+                className="rounded-md mt-8" 
+                src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0osNNIaih2aqWcPIlp79XQvLH6MfVC5TYwA8" 
+                alt="About" 
+                width={1200} 
+                height={1200}
+                style={{ 
+                  width: '100%',
+                  height: 'auto'
+                }}
+              />
 
-            <div className="flex flex-col px-8 gap-4">
-              <div className="mt-8 text-xl font-bold font-instrument">
+              <div className="text-center text-gray-400 text-sm font-instrument">
+                Me in Gangnam, Seoul, South Korea.
+              </div>
+            </div>
+
+            <div className="flex flex-col gap-4">
+              <div className=" text-xl font-bold font-instrument">
                 How I started.
               </div>
 
               <div className="mt-3 font-instrument">
-                My coding journey started when I was in elementary school working on my first Roblox game. Sadly, at the time I didn't know documentation and other resources were available so stopped afterward. In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher.
-                From there, I went on to learn Python and Java in class while self-teaching myself C++. Then, the rest was history with college studying at Penn State University.
+                My coding journey started when I was in elementary school working on my first Roblox game.
+                Around middle school time, I started to get more interested in YouTube and started my photoshop creative journey.
+                In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher, Ms. Incantalupo.
+                From there, I went on to learn Python and Java in class while self-teaching myself C++ during COVID times.
+                Then, the rest was history with college studying at Penn State University.
               </div>
 
               <div className="mt-8 font-instrument">
-                From there, I went on to learn Python and Java in class while self-teaching myself C++. 
-                Then, the rest was history with college studying at Penn State University.
+                Now, I have a problem of criticing every website and UI/UX I visit if I see one.
               </div>
             </div>
           </div>
@@ -92,6 +100,10 @@ export default function About() {
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="text-gray-400 text-center text-xl mt-24 text-md">
+            Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
         </div>
         <Footer />
 

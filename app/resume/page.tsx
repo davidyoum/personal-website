@@ -109,12 +109,16 @@ export default function Resume() {
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5zuYAjhiYJHnG0pieFSm29BdVyNAfLuOQvWa"
             />
           </div>
+
+          <div className="text-gray-400 text-center text-xl mt-24 text-md">
+            Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
+          </div>
             
           <div className="mx-auto">
             <Image 
               className="rounded-md mt-8" 
               src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGoaF4XLppojHYeGwdqPkglNJaDrxyCuA6cfh0" 
-              alt="About" 
+              alt="Signature" 
               width={300} 
               height={300} 
             />

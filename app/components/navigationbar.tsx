@@ -72,6 +72,9 @@ export default function NavigationBar() {
                               priority
                           />
                       </a>
+                      <a href="mailto:davidyoum@yahoo.com" className="block px-4 py-2 text-white mx-2 rounded-md hover:bg-white/10">
+                        Email
+                      </a>
                       <a href="https://github.com/davidyoum" target="_blank" rel="noopener noreferrer" className="block px-4 py-2 text-white mx-2 rounded-md hover:bg-white/10">
                           GitHub
                       </a>
