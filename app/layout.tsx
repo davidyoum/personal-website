@@ -1,4 +1,5 @@
 import { Figtree, Instrument_Sans, Inter } from "next/font/google";
+import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -28,7 +29,7 @@ const instrument = Instrument_Sans({
   adjustFontFallback: false,
 });
 
-export const metadata = {
+export const metadata: Metadata = {
   title: 'David Youm',
   description: 'David Youm Portfolio Website',
 }

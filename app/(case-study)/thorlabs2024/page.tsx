@@ -1,4 +1,5 @@
-import Footer from "../components/footer";
+import React from "react";
+import Footer from "@/app/components/footer";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 

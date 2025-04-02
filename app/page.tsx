@@ -55,20 +55,21 @@ export default function Home() {
           <div className="w-full mx-auto mt-32 items-center">
             <div className="w-5/6 mx-auto text-5xl mb-4">Experience</div>
 
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
+            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#2563eb]">
+              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
-                  title="Incoming Software Engineer Intern, Full-stack for 2025"
+                  title="Full-stack SWE - NDA"
                   subtitle={{
-                    company: "Thorlabs",
+                    company: "CTFGuide",
                     time: "2025",
                   }}  
                 />
+                
                 <Image 
-                  src=""
+                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGBXRFhH5oI9WwixP38KbTO4Hq6vYfuJ2CzFL1"
                   width={500}
                   height={500}
-                  alt="Thorlabs Website Preview"
+                  alt="CTFGuide Website Preview"
                   className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
                     w-[500px] h-[280px]
                     sm:hover:scale-95 transition-transform"
@@ -77,8 +78,20 @@ export default function Home() {
               </a>
             </div>
 
+            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
+              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
+                <WorkCard 
+                  title="Incoming Full-stack SWE Intern for 2025"
+                  subtitle={{
+                    company: "Thorlabs",
+                    time: "2025",
+                  }}  
+                />
+              </a>
+            </div>
+
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#93d2fe]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
+              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
                   title="Website Overhaul & Design Work - Coming Soon"
                   subtitle={{
@@ -87,7 +100,7 @@ export default function Home() {
                   }}
                 />
                 <Image 
-                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGMhiUR4Z1hHtRVKvpfCAJ5QlgGiYIPsxjczeD"
+                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0lZEbzCaih2aqWcPIlp79XQvLH6MfVC5TYwA"
                   width={500}
                   height={500}
                   alt="ACM Website Preview"
@@ -100,8 +113,8 @@ export default function Home() {
             </div>
 
             <a href="/thorlabs" className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between"
-                href="/thorlabs">
+              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between"
+                href="/thorlabs2024">
                 <WorkCard 
                   title="Mobile Lab Website and Internal Tool"
                   subtitle={{
@@ -126,7 +139,7 @@ export default function Home() {
           <div className="w-full mx-auto mt-32 items-center">
             <div className="w-5/6 mx-auto text-5xl mb-4">Projects</div>
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#57ec31]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto mt-10 mb-10 group items-center justify-between">
+              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
                   title="The Pickup Sports Finder - Coming Soon"
                   subtitle={{

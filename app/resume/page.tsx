@@ -87,13 +87,19 @@ export default function Resume() {
 
           <div className="grid sm:grid-cols-2 gap-6 w-full max-w-4xl grid-cols-1">
             <ResumeCard
+              title="Full-stack SWE"
+              subtitle={{ time: "March 2025-Present", company: "CTFGuide" }}
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGs0PU9JNvNFGLIaZKM5teTSx1R6z0BrDEW8mA"
+            />
+
+            <ResumeCard
               title="Software Engineer"
               subtitle={{ time: "Jan 2025-Present", company: "Penn State ACM" }}
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG07YSokaih2aqWcPIlp79XQvLH6MfVC5TYwA8"
             />
 
             <ResumeCard
-              title="Web Development Intern"
+              title="Full-stack SWE Intern"
               subtitle={{ time: "May 2024-August 2024", company: "Thorlabs" }}
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ"
             />
