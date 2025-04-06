@@ -22,7 +22,7 @@ export default function Home() {
         </div>
 
         <div className="w-4/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
-          <div className="space-y-4">
+          <div className="space-y-4 max-w-[800px] mx-auto">
             <div>
               Hi, I'm David — a full-stack developer (focused on frontend) crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
             </div>
@@ -56,7 +56,7 @@ export default function Home() {
             <div className="w-5/6 mx-auto text-5xl mb-4">Experience</div>
 
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#2563eb]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
+              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
                   title="Full-stack SWE - NDA"
                   subtitle={{
@@ -75,23 +75,23 @@ export default function Home() {
                     sm:hover:scale-95 transition-transform"
                   style={{ objectFit: 'cover' }}
                 />
-              </a>
+              </div>
             </div>
 
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
+              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
-                  title="Incoming Full-stack SWE Intern for 2025"
+                  title="Incoming Full-stack SWE Intern for Summer 2025"
                   subtitle={{
                     company: "Thorlabs",
                     time: "2025",
                   }}  
                 />
-              </a>
+              </div>
             </div>
 
             <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#93d2fe]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
+              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
                 <WorkCard 
                   title="Website Overhaul & Design Work - Coming Soon"
                   subtitle={{
@@ -109,12 +109,12 @@ export default function Home() {
                     sm:hover:scale-95 transition-transform"
                   style={{ objectFit: 'cover' }}
                 />
-              </a>
+              </div>
             </div>
 
-            <a href="/thorlabs" className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between"
-                href="/thorlabs2024">
+            <a href="/thorlabs2024" className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
+              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between"
+                >
                 <WorkCard 
                   title="Mobile Lab Website and Internal Tool"
                   subtitle={{
@@ -132,7 +132,7 @@ export default function Home() {
                     sm:hover:scale-95 transition-transform"
                   style={{ objectFit: 'cover' }}
                 />
-              </a>
+              </div>
             </a>
           </div>
 

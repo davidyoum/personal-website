@@ -15,7 +15,7 @@ export default function Resume() {
 
           <div className="text-gray-400 font-instrument text-center mt-8 mb-6 text-xl px-4">
           Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
-          Based out of Sparta, New Jersey, I am a full stack developer with experience and looking to expand my knowledge on the subject.
+          Based out of Northern NJ and Tampa, FL, I am a full stack developer with experience and looking to expand my knowledge on the subject.
           </div>
 
           <div className="text-3xl font-bold font-instrument mt-8 mb-6">

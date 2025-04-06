@@ -55,16 +55,22 @@ export default function About() {
           </div>
 
           <div className="flex flex-col lg:flex-row-reverse gap-16 items-center">
-          <Image 
-              className="rounded-md mt-8 w-[300px] md:w-[400px] lg:w-[500px]" 
-              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGFwunWuuA4xj6YWCdQwuFLT32svS7G0fBiUo1" 
-              alt="Snowboarding" 
-              width={700}
-              height={900}
-              style={{ 
-                height: 'auto'
-              }}
-            />
+            <div className="flex flex-col gap-2">
+              <Image 
+                className="rounded-md mt-8 w-[300px] md:w-[400px] lg:w-[500px]" 
+                src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGFwunWuuA4xj6YWCdQwuFLT32svS7G0fBiUo1" 
+                alt="Snowboarding" 
+                width={700}
+                height={900}
+                style={{ 
+                  height: 'auto'
+                }}
+              />
+
+              <div className="text-center text-gray-400 text-sm font-instrument">
+                Snowboarding in Mountain Creek, New Jersey.
+              </div>
+            </div>
 
             <div className="flex flex-col mt-10 flex-1 justify-start">
               <div className="text-xl font-bold font-instrument">
