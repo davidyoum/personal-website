@@ -24,6 +24,13 @@ export default function Home() {
         <div className="w-4/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
           <div className="space-y-4 max-w-[800px] mx-auto">
             <div>
+            (THIS IS DEPRECATED WEBSITE)
+            <br />
+            <a className="text-red-500" href="https://davidyoum.com">Click here to visit the new website</a>
+            <br />
+            <br />
+            </div>
+            <div>
               Hi, I'm David — a full-stack developer (focused on frontend) crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
             </div>
             <div>
