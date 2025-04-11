@@ -2,24 +2,22 @@ import NavigationBar from "../components/navigationbar";
 import Footer from "../components/footer";
 import Image from "next/image";
 
-
 export default function About() {
-    return (
-      <div className="mx-auto">
-        <NavigationBar />
-        <div className="flex flex-col max-w-[900px] mx-auto items-center mt-12">
-          <div className="text-5xl font-instrument text-center">
-            About Me
-          </div>
+  return (
+    <div className="w-full">
+      <NavigationBar name="about" />
+      <div className="w-full md:w-2/3 mx-auto p-5 font-tinos">
+        <h1 className="text-6xl">About Me</h1>
 
-          <div className="text-center text-gray-400 text-xl p-3 mt-4 font-instrument">
+        <div className="mt-10 space-y-5">
+          <div className="text-center text-gray-700 text-xl">
             Hi my name is David. Here is a more personal look into me and nothing really professional is here. 
             I would be more than happy to talk about any of the topics I wrote about so, shoot me a message!
           </div>
 
           <div className="flex flex-col lg:flex-row gap-4 items-center w-full">
             <div className="flex flex-col gap-2 lg:w-[1200px]">
-            <Image 
+              <Image 
                 className="rounded-md mt-8 w-full max-w-[300px] lg:max-w-[1200px]" 
                 src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0osNNIaih2aqWcPIlp79XQvLH6MfVC5TYwA8" 
                 alt="About" 
@@ -29,26 +27,21 @@ export default function About() {
                   height: 'auto'
                 }}
               />
-
-              <div className="text-center text-gray-400 text-sm font-instrument">
+              <div className="text-center text-gray-500 text-sm">
                 Me in Gangnam, Seoul, South Korea.
               </div>
             </div>
 
-            <div className="flex flex-col p-3 gap-4">
-              <div className=" text-xl font-bold font-instrument">
-                How I started.
-              </div>
-
-              <div className="mt-3 font-instrument">
+            <div className="flex flex-col p-3 gap-4 font-tinos">
+              <h2 className="text-xl font-bold">How I started.</h2>
+              <div className="mt-3">
                 My coding journey started when I was in elementary school working on my first Roblox game.
                 Around middle school time, I started to get more interested in YouTube and started my photoshop creative journey.
                 In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher, Ms. Incantalupo.
                 From there, I went on to learn Python and Java in class while self-teaching myself C++ during COVID times.
                 Then, the rest was history with college studying at Penn State University.
               </div>
-
-              <div className="mt-4 font-instrument">
+              <div className="mt-4">
                 Now, I have a problem of criticing every website and UI/UX I visit if I see one.
               </div>
             </div>
@@ -66,22 +59,17 @@ export default function About() {
                   height: 'auto'
                 }}
               />
-
-              <div className="text-center text-gray-400 text-sm font-instrument">
-                Snowboarding in Mountain Creek, New Jersey.
+              <div className="text-center text-gray-700 text-sm">
+                Snowboarding in Mont Sainte-Anne, QC, Canada.
               </div>
             </div>
 
             <div className="flex flex-col mt-10 flex-1 justify-start">
-              <div className="text-xl font-bold font-instrument">
-                My hobbies and interests.
-              </div>
-
-
+              <h2 className="text-xl font-bold">My hobbies and interests.</h2>
               <div className="flex ml-3 flex-row gap-4">
-                <div className="mt-3 font-instrument">
-                    My hobbies include:
-                    <ul className="list-disc mt-2 space-y-1">
+                <div className="mt-3">
+                  My hobbies include:
+                  <ul className="list-disc mt-2 space-y-1">
                     <li>Snowboarding</li>
                     <li>Sports (Soccer, Basketball, Track)</li>
                     <li>Car Detailing</li>
@@ -90,8 +78,7 @@ export default function About() {
                     <li className="text-gray-900">Eating food!</li>
                   </ul>
                 </div>
-
-                <div className="mt-3 font-instrument">
+                <div className="mt-3">
                   My interests include:
                   <ul className="list-disc ml-6 mt-2 space-y-1">
                     <li>Sports (mainly soccer)</li>
@@ -106,12 +93,11 @@ export default function About() {
           </div>
         </div>
 
-        <div className="text-gray-400 text-center text-xl mt-24 text-md">
-            Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
+        <div className=" text-center text-xl mt-24 text-md">
+          Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
         </div>
         <Footer />
-
       </div>
-
-    );
-  }
+    </div>
+  );
+}

@@ -63,7 +63,11 @@ export default {
   			inter: [
   				'var(--font-inter)',
   				'sans'
-  			]
+  			],
+				tinos: [
+					'var(--font-tinos)',
+					'sans'
+				]
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

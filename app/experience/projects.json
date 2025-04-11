@@ -1,0 +1,37 @@
+[
+  { 
+    "color": "tally-sports-green",
+    "year": "2024",
+    "title": "The Sports Pick-up App",
+    "company": "Tally Sports",
+    "points": [
+      "Developed a full-stack web application using Next.js and Tailwind CSS for a sports pickup game platform.",
+      "Implemented features such as user authentication, game creation, and player matching.",
+      "Utilized MongoDB for database storage and integration with the frontend.",
+      "Enhanced user experience with features like real-time notifications and location-based search."
+    ]
+  },
+  {
+    "color": "pennstate-blue",
+    "year": "2023",
+    "title": "Course Scheduling Java App",
+    "company": "Course Scheduler"
+  },
+  {
+    "year": "2021",
+    "title": "Portfolio Website",
+    "company": "www.davidyoum.com"
+  },
+  {
+    "color": "daska-blue",
+    "year": "2021",
+    "title": "GPA Calculator and Transcript Scraper",
+    "company": "Daska"
+  },
+  {
+    "color": "discord-blue",
+    "year": "2020",
+    "title": "Discord Bot using Discord.py",
+    "company": "BasisBot"
+  }
+]

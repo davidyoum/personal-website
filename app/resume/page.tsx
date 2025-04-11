@@ -3,41 +3,30 @@ import Footer from "../components/footer";
 import Image from "next/image";
 import { Badge } from "@/components/ui/badge";
 import ResumeCard from "../components/resume-card";
-
+import EducationCard from "../components/education-card";
 export default function Resume() {
     return (
-      <div className="mx-auto">
-        <NavigationBar />
-        <div className="flex flex-col max-w-[900px] p-5 mx-auto mt-12">
-          <div className="text-5xl font-instrument text-center sm:text-4xl xs:text-3xl">
-            Resume
+      <div className="w-full">
+        <NavigationBar name="resume" />
+        <div className="w-full font-tinos md:w-2/3 mx-auto p-5">
+          <h1 className="text-6xl mb-6">Resume</h1>
+
+          <div className="text-gray-700 text-center mt-10 text-xl">
+            Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
+            Based out of Northern NJ and Tampa, FL, I am a full stack developer with experience and looking to expand my knowledge on the subject.
           </div>
 
-          <div className="text-gray-400 font-instrument text-center mt-8 mb-6 text-xl px-4">
-          Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
-          Based out of Northern NJ and Tampa, FL, I am a full stack developer with experience and looking to expand my knowledge on the subject.
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Education</h1>
+
+          <div className="font-instrument">
+            <EducationCard school="Penn State University" degree="Bachelor of Science in Computer Science, Minor in Mathematics" graduation="Expected Graduation: May 2026" />
+            <EducationCard school="Stevens Institute of Technology" degree="Pre-college Computer Science Program" graduation="Jul 2021 - Aug 2021" />
           </div>
 
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            Education
-          </div>
-
-          <div className="font-instrument mb-6">
-            <div className="font-bold text-lg">
-            Penn State University - University Park, PA
-            </div>
-            <div className="text-gray-400 text-md">
-            Bachelor of Science in Computer Science, Minor in Mathematics
-            <br />
-            Expected Graduation: May 2026
-            </div>
-          </div>
-
-          <div className="flex flex-row gap-4">
-            <div className="mt-4 max-w-[400px]">
-              <div className="text-3xl font-bold font-instrument mb-4">
-                My Skills:
-              </div>
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Skills</h1>
+          <div className="flex flex-col gap-4">
+            <div>
+              <h1 className="text-lg mb-4">Programming Languages:</h1>
 
               <div className="flex flex-row gap-3 flex-wrap">
                 <Badge>Python</Badge>
@@ -48,6 +37,13 @@ export default function Resume() {
                 <Badge>TypeScript</Badge>
                 <Badge>HTML/CSS</Badge>
                 <Badge>OCaml</Badge>
+              </div>
+            </div>
+
+            <div>
+              <h1 className="text-lg mb-4">Libraries & Frameworks:</h1>
+
+              <div className="flex flex-row gap-3 flex-wrap">
                 <Badge>React</Badge>
                 <Badge>Next.js</Badge>
                 <Badge>Vue.js</Badge>
@@ -56,17 +52,11 @@ export default function Resume() {
                 <Badge>Flask</Badge>
                 <Badge>Discord.py</Badge>
                 <Badge>Selenium</Badge>
-                <Badge>PostgreSQL</Badge>
-                <Badge>MySQL</Badge>
-                <Badge>JSON</Badge>
-                
               </div>
             </div>
 
-            <div className="mt-4 max-w-[400px]">
-              <div className="text-3xl font-bold font-instrument mb-4">
-                My Tool Bag:
-              </div>
+            <div>
+              <h1 className="text-lg mb-4">My Tool Bag:</h1>
 
               <div className="flex flex-row gap-3 flex-wrap">
                 <Badge>Git</Badge>
@@ -81,9 +71,7 @@ export default function Resume() {
             </div>
           </div>
 
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            My Experiences
-          </div>
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Experiences</h1>
 
           <div className="grid sm:grid-cols-2 gap-6 w-full max-w-4xl grid-cols-1">
             <ResumeCard
@@ -105,9 +93,7 @@ export default function Resume() {
             />
           </div>
 
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            My Projects
-          </div>
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Projects</h1>
 
           <div className="grid grid-cols-1 gap-6 w-full max-w-4xl sm:grid-cols-2">
             <ResumeCard
@@ -119,20 +105,9 @@ export default function Resume() {
           <div className="text-gray-400 text-center text-xl mt-24 text-md">
             Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
           </div>
-            
-          <div className="mx-auto">
-            <Image 
-              className="rounded-md mt-8" 
-              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGoaF4XLppojHYeGwdqPkglNJaDrxyCuA6cfh0" 
-              alt="Signature" 
-              width={300} 
-              height={300} 
-            />
-          </div>
         </div>
 
         <Footer />
       </div>
-
     );
   }
