@@ -1,9 +1,15 @@
-import { Figtree, Instrument_Sans, Inter } from "next/font/google";
+import { Figtree, Instrument_Sans, Inter, Tinos } from "next/font/google";
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
-
+const tinos = Tinos({
+  variable: "--font-tinos",
+  subsets: ['latin'],
+  display: 'swap',
+  weight: ['400', '700'],
+  adjustFontFallback: false,
+});
 
 const figtree = Figtree({
   variable: "--font-figtree",
@@ -40,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={`${figtree.variable} ${inter.variable} ${instrument.variable}`} suppressHydrationWarning>
+    <html lang="en" className={`${figtree.variable} ${tinos.variable} ${inter.variable} ${instrument.variable}`} suppressHydrationWarning>
       <body suppressHydrationWarning>
         {children}
         <Analytics />

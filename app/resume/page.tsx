@@ -1,138 +1,81 @@
 import NavigationBar from "../components/navigationbar";
 import Footer from "../components/footer";
-import Image from "next/image";
-import { Badge } from "@/components/ui/badge";
-import ResumeCard from "../components/resume-card";
+import ExperienceCard from "../components/resume-experience-card";
+import EducationCard from "../components/education-card";
 
 export default function Resume() {
     return (
-      <div className="mx-auto">
-        <NavigationBar />
-        <div className="flex flex-col max-w-[900px] p-5 mx-auto mt-12">
-          <div className="text-5xl font-instrument text-center sm:text-4xl xs:text-3xl">
-            Resume
+      <div className="w-full">
+        <NavigationBar name="resume" />
+        <div className="w-full font-tinos md:w-2/3 mx-auto p-5">
+          <h1 className="text-6xl mb-6">Resume</h1>
+
+          <div className="text-gray-700 text-center mt-10 text-xl">
+            Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
+            I could relocate to New York Metropolitan Area or Tampa, FL. I am a full stack developer with experience and looking to expand my knowledge on the subject.
           </div>
 
-          <div className="text-gray-400 font-instrument text-center mt-8 mb-6 text-xl px-4">
-          Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
-          Based out of Northern NJ and Tampa, FL, I am a full stack developer with experience and looking to expand my knowledge on the subject.
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Education</h1>
+
+          <div className="font-instrument">
+            <EducationCard school="Penn State University" degree="B.S. in Computer Science, Minor in Mathematics" graduation="Aug 2022 - May 2026" />
+            <EducationCard school="Stevens Institute of Technology" degree="Pre-college Computer Science Program - Intermediate" graduation="Jul 2021 - Aug 2021" />
+            <EducationCard school="Sparta High School" degree="High School Diploma" graduation="Aug 2018 - May 2022" />
           </div>
 
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            Education
-          </div>
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Experiences</h1>
 
-          <div className="font-instrument mb-6">
-            <div className="font-bold text-lg">
-            Penn State University - University Park, PA
-            </div>
-            <div className="text-gray-400 text-md">
-            Bachelor of Science in Computer Science, Minor in Mathematics
-            <br />
-            Expected Graduation: May 2026
-            </div>
-          </div>
-
-          <div className="flex flex-row gap-4">
-            <div className="mt-4 max-w-[400px]">
-              <div className="text-3xl font-bold font-instrument mb-4">
-                My Skills:
-              </div>
-
-              <div className="flex flex-row gap-3 flex-wrap">
-                <Badge>Python</Badge>
-                <Badge>C++</Badge>
-                <Badge>C</Badge>
-                <Badge>Java</Badge>
-                <Badge>JavaScript</Badge>
-                <Badge>TypeScript</Badge>
-                <Badge>HTML/CSS</Badge>
-                <Badge>OCaml</Badge>
-                <Badge>React</Badge>
-                <Badge>Next.js</Badge>
-                <Badge>Vue.js</Badge>
-                <Badge>TailwindCSS</Badge>
-                <Badge>Bootstrap</Badge>
-                <Badge>Flask</Badge>
-                <Badge>Discord.py</Badge>
-                <Badge>Selenium</Badge>
-                <Badge>PostgreSQL</Badge>
-                <Badge>MySQL</Badge>
-                <Badge>JSON</Badge>
-                
-              </div>
-            </div>
-
-            <div className="mt-4 max-w-[400px]">
-              <div className="text-3xl font-bold font-instrument mb-4">
-                My Tool Bag:
-              </div>
-
-              <div className="flex flex-row gap-3 flex-wrap">
-                <Badge>Git</Badge>
-                <Badge>GitHub</Badge>
-                <Badge>Adobe Photoshop</Badge>
-                <Badge>Adobe Premiere Pro</Badge>
-                <Badge>Figma</Badge>
-                <Badge>Microsoft Office</Badge>
-                <Badge>VS Code</Badge>
-                <Badge>Azure</Badge>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            My Experiences
-          </div>
-
-          <div className="grid sm:grid-cols-2 gap-6 w-full max-w-4xl grid-cols-1">
-            <ResumeCard
-              title="Full-stack SWE"
-              subtitle={{ time: "March 2025-Present", company: "CTFGuide" }}
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGs0PU9JNvNFGLIaZKM5teTSx1R6z0BrDEW8mA"
-            />
-
-            <ResumeCard
-              title="Software Engineer"
-              subtitle={{ time: "Jan 2025-Present", company: "Penn State ACM" }}
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG07YSokaih2aqWcPIlp79XQvLH6MfVC5TYwA8"
-            />
-
-            <ResumeCard
-              title="Full-stack SWE Intern"
-              subtitle={{ time: "May 2024-August 2024", company: "Thorlabs" }}
+          <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
+            <ExperienceCard
+              title="Incoming Full-stack SWE Intern"
+              company="Thorlabs"
+              time="May 2025-August 2025"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ"
+              link="https://www.thorlabs.com"
+            />
+
+            <ExperienceCard
+              title="Full-stack SWE"
+              company="CTFGuide"
+              time="March 2025-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGiF7rjPbkqwfp208a3czseQhtCrvH4P7ALudN"
+              link="https://ctfguide.com"
+            />
+
+            <ExperienceCard
+              title="SWE & Graphic Designer"
+              company="Penn State ACM"
+              time="Jan 2025-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGKNK5L8Mnv36ejLY0d5yZaWQfHlJKSOIq1cp2"
+              link="https://acm.psu.edu/"
+            />
+
+            <ExperienceCard
+              title="Full-stack SWE Intern"
+              company="Thorlabs"
+              time="May 2024-August 2024"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ"
+              link="https://www.thorlabs.com"
             />
           </div>
 
-          <div className="text-3xl font-bold font-instrument mt-8 mb-6">
-            My Projects
-          </div>
+          <h1 className="text-6xl font-tinos mt-6 mb-6">Projects</h1>
 
-          <div className="grid grid-cols-1 gap-6 w-full max-w-4xl sm:grid-cols-2">
-            <ResumeCard
-              subtitle={{ time: "May 2024-Present", company: "Tally Sports" }}
+          <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
+            <ExperienceCard
+              title="A Pickup Sports Webapp"
+              company="Tally Sports"
+              time="May 2024-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5zuYAjhiYJHnG0pieFSm29BdVyNAfLuOQvWa"
             />
           </div>
 
-          <div className="text-gray-400 text-center text-xl mt-24 text-md">
+          <div className="text-black text-center text-xl mt-24 text-md">
             Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
           </div>
-            
-          <div className="mx-auto">
-            <Image 
-              className="rounded-md mt-8" 
-              src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGoaF4XLppojHYeGwdqPkglNJaDrxyCuA6cfh0" 
-              alt="Signature" 
-              width={300} 
-              height={300} 
-            />
-          </div>
+        
+          <Footer />
         </div>
-
-        <Footer />
       </div>
-
     );
   }

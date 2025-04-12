@@ -3,166 +3,132 @@
 import React from "react";
 import NavigationBar from "./components/navigationbar";
 import Image from "next/image";
-import WorkCard from "./components/work-card";
+import WorkCard from "./components/experience-card";
 import Footer from "./components/footer"
 
 export default function Home() {
   return (
-    <div className="h-screen bg-gradient-to-b from-[#161616]">
-      <NavigationBar />
-
-      <div className="h-screen">
-        <div className="w-3/4 mx-auto pt-[10vh]">
-          <div className="block text-2xl sm:hidden">
-            David Youm
-          </div>
-          <div className="block text-md text-gray-500 sm:hidden">
-            Full-stack Developer
-          </div>
-        </div>
-
-        <div className="w-4/5 font-inter text-2xl sm:text-center mx-auto pt-[11vh]">
-          <div className="space-y-4 max-w-[800px] mx-auto">
+    <>
+      <div className="w-full h-screen flex items-center justify-center">
+        <div className="mx-auto flex justify-center items-center w-full sm:w-2/3">
+          <div className="flex w-[350px] flex-col font-tinos">
+            <Image src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGeFaDQ4vzyxiH2XIftALjS6YUruec7kop4RT5" alt="Headshot" width={150} height={100} />
             <div>
-              Hi, I'm David — a full-stack developer (focused on frontend) crafting end-to-end web experiences. I am an avid gamer, Tottenham Hotspur fan (mostly Son), and snowboarder.
+              <h1 className="text-2xl">David Youm</h1>
+              <p>SWE @ CTFGuide | CS + Math @ Penn State</p>
             </div>
-            <div>
-              Based out of Northern New Jersey, previous intern at 
-              <Image 
-                src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ" 
-                alt="Thorlabs Logo" 
-                width={105}
-                height={105}
-                className="inline-block align-middle mb-1 mx-1"
-                style={{ width: 'auto', height: 'auto' }}
-              />.
+            <div className="mt-4">
+              Hello, my name is David. I am a full-stack developer
+              excited to build products in a fast environment
+               and learn new things.
+              Currently, I am working at CTFGuide
+              and will be interning at Thorlabs this summer.
             </div>
-          </div>
-        </div>
-
-        <div className="flex justify-center mt-12 sm:mt-52 md:mt-60">
-          <Image 
-            src="https://cdn.prod.website-files.com/63dcb6e1a80e9454b630f4c4/63e206eedd964a5c5db19c91_23-icon-arrow-down.svg"
-            alt="Scroll down"
-            width={50}
-            height={50}
-            className="bounce-pulse cursor-pointer"
-            priority
-          />
-        </div>
-
-        <div>
-          <div className="w-full mx-auto mt-32 items-center">
-            <div className="w-5/6 mx-auto text-5xl mb-4">Experience</div>
-
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#2563eb]">
-              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
-                <WorkCard 
-                  title="Full-stack SWE - NDA"
-                  subtitle={{
-                    company: "CTFGuide",
-                    time: "2025",
-                  }}  
-                />
+            <div className="mt-4 ml-4">
+              <ul>
+                <li className="flex items-center gap-2">
+                  <a className="flex items-center gap-2" href="/experience">
+                    Experience 
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="16" 
+                      height="16" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="black" 
+                      strokeWidth="2" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round"
+                    >
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </li>
                 
-                <Image 
-                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGBXRFhH5oI9WwixP38KbTO4Hq6vYfuJ2CzFL1"
-                  width={500}
-                  height={500}
-                  alt="CTFGuide Website Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    w-[500px] h-[280px]
-                    sm:hover:scale-95 transition-transform"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
+                <li className="flex items-center gap-2">
+                  <a className="flex items-center gap-2" href="/about">
+                    About Me
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="16" 
+                      height="16" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="black" 
+                      strokeWidth="2" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round"
+                    >
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </li>
+
+                <li className="flex items-center gap-2">
+                  <a className="flex items-center gap-2" href="/resume">
+                    Resume
+                    <svg 
+                      xmlns="http://www.w3.org/2000/svg" 
+                      width="16" 
+                      height="16" 
+                      viewBox="0 0 24 24" 
+                      fill="none" 
+                      stroke="black" 
+                      strokeWidth="2" 
+                      strokeLinecap="round" 
+                      strokeLinejoin="round"
+                    >
+                      <line x1="7" y1="17" x2="17" y2="7"></line>
+                      <polyline points="7 7 17 7 17 17"></polyline>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
 
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
-                <WorkCard 
-                  title="Incoming Full-stack SWE Intern for Summer 2025"
-                  subtitle={{
-                    company: "Thorlabs",
-                    time: "2025",
-                  }}  
-                />
-              </div>
-            </div>
+            <div>
+              <ul className="flex flex-row gap-3 mt-4">
+                <li>
+                  <a href="mailto:davidyoum@yahoo.com">
+                    <img src="https://img.icons8.com/?size=100&id=60688&format=png&color=000000" width="30" height="30" alt="Email" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/davidyoum">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                      <path fill="black" d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.linkedin.com/in/davidyoum/">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                      <path fill="black" d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h18c1.105,0,2-0.895,2-2V6C26,4.895,25.105,4,24,4z M10.954,22h-2.95 v-9.492h2.95V22z M9.449,11.151c-0.951,0-1.72-0.771-1.72-1.72c0-0.949,0.77-1.719,1.72-1.719c0.948,0,1.719,0.771,1.719,1.719 C11.168,10.38,10.397,11.151,9.449,11.151z M22.004,22h-2.948v-4.616c0-1.101-0.02-2.517-1.533-2.517 c-1.535,0-1.771,1.199-1.771,2.437V22h-2.948v-9.492h2.83v1.297h0.04c0.394-0.746,1.356-1.533,2.791-1.533 c2.987,0,3.539,1.966,3.539,4.522V22z"></path>
+                    </svg>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/davidyoum/">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
+                        <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                    </svg>
+                  </a>
+                </li>
 
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#93d2fe]">
-              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
-                <WorkCard 
-                  title="Website Overhaul & Design Work - Coming Soon"
-                  subtitle={{
-                    company: "Penn State ACM",
-                    time: "2025",
-                  }}
-                />
-                <Image 
-                  src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG0lZEbzCaih2aqWcPIlp79XQvLH6MfVC5TYwA"
-                  width={500}
-                  height={500}
-                  alt="ACM Website Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    w-[500px] h-[280px]
-                    sm:hover:scale-95 transition-transform"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-            </div>
-
-            <a href="/thorlabs2024" className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#E51B24]">
-              <div className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between"
-                >
-                <WorkCard 
-                  title="Mobile Lab Website and Internal Tool"
-                  subtitle={{
-                    company: "Thorlabs",
-                    time: "2024",
-                  }}
-                />
-                <Image 
-                  src="/images/thorlabs/thorlabs-website.png"
-                  width={500}
-                  height={500}
-                  alt="Thorlabs Website Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    w-[500px] h-[280px]
-                    sm:hover:scale-95 transition-transform"
-                  style={{ objectFit: 'cover' }}
-                />
-              </div>
-            </a>
-          </div>
-
-          <div className="w-full mx-auto mt-32 items-center">
-            <div className="w-5/6 mx-auto text-5xl mb-4">Projects</div>
-            <div className="flex w-full h-44 border-t-[1px] border-b-[1px] hover:bg-[#57ec31]">
-              <a className="flex w-11/12 md:w-5/6 mx-auto pt-10 pb-10 group items-center justify-between">
-                <WorkCard 
-                  title="The Pickup Sports Finder - Coming Soon"
-                  subtitle={{
-                    company: "Tally Sports",
-                    time: "2024",
-                  }}
-                />
-                <Image 
-                  src="/images/tally.gif"
-                  width={500}
-                  height={500}
-                  alt="Tally Sports Preview"
-                  className="rounded-md opacity-0 group-hover:opacity-100 duration-300 hidden 2xl:block
-                    w-[500px] h-[280px]
-                    sm:hover:scale-95 transition-transform"
-                  style={{ objectFit: 'cover' }}
-                />
-              </a>
+                <li>
+                  <a href="https://x.com/davidyoum_">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 30 30">
+                      <path d="M 6 4 C 4.895 4 4 4.895 4 6 L 4 24 C 4 25.105 4.895 26 6 26 L 24 26 C 25.105 26 26 25.105 26 24 L 26 6 C 26 4.895 25.105 4 24 4 L 6 4 z M 8.6484375 9 L 13.259766 9 L 15.951172 12.847656 L 19.28125 9 L 20.732422 9 L 16.603516 13.78125 L 21.654297 21 L 17.042969 21 L 14.056641 16.730469 L 10.369141 21 L 8.8945312 21 L 13.400391 15.794922 L 8.6484375 9 z M 10.878906 10.183594 L 17.632812 19.810547 L 19.421875 19.810547 L 12.666016 10.183594 L 10.878906 10.183594 z"></path>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
-          <Footer />
         </div>
       </div>
-    </div>
+    </>
   );
 }

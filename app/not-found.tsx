@@ -1,12 +1,18 @@
+'use client';
+
+import { useRouter } from 'next/navigation';
+
 export default function Custom404() {
+  const router = useRouter();
+
   return(
     <div>
-      <div className="flex flex-col items-center justify-center gap-4 h-screen">
+      <div className="flex flex-col font-tinos items-center justify-center gap-4 h-screen">
         <h1 className="text-4xl font-bold">404 - Page Not Found</h1>
 
         <p>I dont think I added this page yet.</p>
 
-        <a href="/" className="text-blue-500 flex items-center gap-2">
+        <button onClick={() => router.back()} className="text-blue-500 flex items-center gap-2">
           <svg 
             width="24" 
             height="24" 
@@ -23,7 +29,7 @@ export default function Custom404() {
             />
           </svg>
           Go Back
-        </a>
+        </button>
       </div>
     </div>
   )
