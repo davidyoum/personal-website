@@ -19,18 +19,21 @@ export default function NavigationBar(name: pageType) {
                     <>
                         <Link href="/about">About</Link>
                         <Link href="/resume">Resume</Link>
+                        <Link href="mailto:davidyoum@yahoo.com">Contact</Link>
                     </>
                 )}
                 {name.name === "about" && (
                     <>
                         <Link href="/experience">Experience</Link>
                         <Link href="/resume">Resume</Link>
+                        <Link href="mailto:davidyoum@yahoo.com">Contact</Link>
                     </>
                 )}
                 {name.name === "resume" && (
                     <>
                         <Link href="/about">About</Link>
                         <Link href="/experience">Experience</Link>
+                        <Link href="mailto:davidyoum@yahoo.com">Contact</Link>
                     </>
                 )}
             </div>

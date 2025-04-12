@@ -23,7 +23,7 @@ export default function Experience() {
         <div className="mt-10 space-y-5">
           <ExperienceCard color="thorlabs-red" title="Incoming Full-stack Software Engineer Intern" year="2025" company="Thorlabs" />
           <ExperienceCard color="ctfguide-blue" title="Full-stack Software Engineer" year="2025" company="CTFGuide" />
-          <ExperienceCard color="pennstate-blue" title="Software Engineer" year="2025" company="Penn State ACM" />
+          <ExperienceCard color="pennstate-blue" title="Software Engineer & Graphic Designer" year="2025" company="Penn State ACM" />
           <ExperienceCard color="thorlabs-red" link="thorlabs2024" title="Full-stack Software Engineer Intern" year="2024" company="Thorlabs" />
         </div>
 

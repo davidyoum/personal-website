@@ -34,13 +34,13 @@ export default function About() {
 
             <div className="flex flex-col p-3 gap-4 font-tinos">
               <h2 className="text-xl font-bold">How I started.</h2>
-              <div className="mt-3">
+              <p className="mt-3 max-w-[3000px]">
                 My coding journey started when I was in elementary school working on my first Roblox game.
                 Around middle school time, I started to get more interested in YouTube and started my photoshop creative journey.
-                In Sparta High School, I took computer science classes and my interest grew with the help of an amazing teacher, Ms. Incantalupo.
-                From there, I went on to learn Python and Java in class while self-teaching myself C++ during COVID times.
+                In high school, I took computer science classes and my interest grew with the help of an amazing teacher.
+                From there, I went on to learn Python and Java in class while self-teaching myself  C++ during COVID times.
                 Then, the rest was history with college studying at Penn State University.
-              </div>
+              </p>
               <div className="mt-4">
                 Now, I have a problem of criticing every website and UI/UX I visit if I see one.
               </div>
@@ -68,24 +68,22 @@ export default function About() {
               <h2 className="text-xl font-bold">My hobbies and interests.</h2>
               <div className="flex ml-3 flex-row gap-4">
                 <div className="mt-3">
-                  My hobbies include:
                   <ul className="list-disc mt-2 space-y-1">
                     <li>Snowboarding</li>
                     <li>Sports (Soccer, Basketball, Track)</li>
                     <li>Car Detailing</li>
                     <li>Video Games (FIFA, Valorant)</li>
                     <li>Cooking</li>
-                    <li className="text-gray-900">Eating food!</li>
+                    <li className="text-gray-100">Eating 40lbs of food!</li>
                   </ul>
                 </div>
                 <div className="mt-3">
-                  My interests include:
                   <ul className="list-disc ml-6 mt-2 space-y-1">
                     <li>Sports (mainly soccer)</li>
                     <li>Fashion</li>
                     <li>Cars</li>
                     <li>Computers</li>
-                    <li>AI</li>
+                    <li>AI/ML</li>
                   </ul>
                 </div>
               </div>

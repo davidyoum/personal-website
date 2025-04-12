@@ -5,33 +5,54 @@
     "title": "The Sports Pick-up App",
     "company": "Tally Sports",
     "points": [
-      "Developed a full-stack web application using Next.js and Tailwind CSS for a sports pickup game platform.",
-      "Implemented features such as user authentication, game creation, and player matching.",
-      "Utilized MongoDB for database storage and integration with the frontend.",
-      "Enhanced user experience with features like real-time notifications and location-based search."
+      "Constructing a purpose-built sports matchmaking application that enables users to discover and join local athletic activities, with functionality specifically engineered around community participation patterns",
+      "Building from scratch using Next.js to display, create events, show statistics and more",
+      "Crafted a Next.js-powered digital platform integrating event management, statistical analysis, and secure user authentication via BetterAuth API for enhanced user verification"
     ]
   },
   {
     "color": "pennstate-blue",
     "year": "2023",
     "title": "Course Scheduling Java App",
-    "company": "Course Scheduler"
+    "company": "Course Scheduler",
+    "points": [
+      "Developed a Java-based course scheduling application that allows users to efficiently manage and optimize their academic schedules",
+      "Utilized Java Swing for the graphical user interface, providing a user-friendly and intuitive experience",
+      "Implemented a Apache Derby database system for efficient course management and scheduling"
+    ]
   },
   {
     "year": "2021",
     "title": "Portfolio Website",
-    "company": "www.davidyoum.com"
+    "company": "www.davidyoum.com",
+    "points": [
+      "Developed this website to showcase my projects and experiences",
+      "Designed from scratch and took inspiration from other UX/UI designers",
+      "Utilized Next.js and Tailwind CSS for the frontend",
+      "Deployed the website using Vercel",
+      "Hope you enjoy :)"
+    ]
   },
   {
     "color": "daska-blue",
     "year": "2021",
     "title": "GPA Calculator and Transcript Scraper",
-    "company": "Daska"
+    "company": "Daska",
+    "points": [
+      "Developed a GPA calculator and transcript scraper using Python and Selenium",
+      "Utilized BeautifulSoup for web scraping and Selenium for automating browser interactions",
+      "Designed a user-friendly interface for easy input and output"
+    ]
   },
   {
     "color": "discord-blue",
     "year": "2020",
     "title": "Discord Bot using Discord.py",
-    "company": "BasisBot"
+    "company": "BasisBot",
+    "points": [
+      "Developed a Discord bot using Discord.py",
+      "Utilized the Discord API for bot interactions",
+      "Implemented basic commands for moderation to servers"
+    ]
   }
 ]
