@@ -10,17 +10,17 @@ export default function Home() {
   return (
     <>
       <div className="w-full h-screen flex items-center justify-center">
-        <div className="mx-auto flex justify-center items-center w-full sm:w-2/3">
-          <div className="flex w-[350px] flex-col font-tinos">
+        <div className="mx-auto flex justify-center items-center w-full sm:w-2/3 p-2">
+          <div className="flex w-[450px] flex-col font-tinos">
             <Image src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGeFaDQ4vzyxiH2XIftALjS6YUruec7kop4RT5" alt="Headshot" width={150} height={100} />
             <div>
               <h1 className="text-2xl">David Youm</h1>
-              <p>SWE @ CTFGuide | CS + Math @ Penn State</p>
+              <p>Founder @ Stealth | SWE @ CTFGuide | CS + Math @ Penn State</p>
             </div>
             <div className="mt-4">
               Hello, my name is David. I am a full-stack developer
               excited to build products in a fast environment
-               and learn new things.
+              and learn new things.
               Currently, I am working at CTFGuide
               and will be interning at Thorlabs this summer.
             </div>
@@ -28,16 +28,16 @@ export default function Home() {
               <ul>
                 <li className="flex items-center gap-2">
                   <a className="flex items-center gap-2" href="/experience">
-                    Experience 
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="16" 
-                      height="16" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="black" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
+                    Experience
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="black"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -45,19 +45,19 @@ export default function Home() {
                     </svg>
                   </a>
                 </li>
-                
+
                 <li className="flex items-center gap-2">
                   <a className="flex items-center gap-2" href="/about">
                     About Me
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="16" 
-                      height="16" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="black" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="black"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -69,15 +69,15 @@ export default function Home() {
                 <li className="flex items-center gap-2">
                   <a className="flex items-center gap-2" href="/resume">
                     Resume
-                    <svg 
-                      xmlns="http://www.w3.org/2000/svg" 
-                      width="16" 
-                      height="16" 
-                      viewBox="0 0 24 24" 
-                      fill="none" 
-                      stroke="black" 
-                      strokeWidth="2" 
-                      strokeLinecap="round" 
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="black"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                       strokeLinejoin="round"
                     >
                       <line x1="7" y1="17" x2="17" y2="7"></line>
@@ -112,7 +112,7 @@ export default function Home() {
                 <li>
                   <a href="https://www.instagram.com/davidyoum/">
                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 24 24">
-                        <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
+                      <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"></path>
                     </svg>
                   </a>
                 </li>

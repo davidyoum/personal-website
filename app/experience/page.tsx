@@ -21,6 +21,7 @@ export default function Experience() {
         <h1 className="text-6xl font-tinos">Experience</h1>
 
         <div className="mt-10 space-y-5">
+          <ExperienceCard color="black" title="Founder" year="2025" company="Stealth Startup" />
           <ExperienceCard color="thorlabs-red" title="Incoming Full-stack Software Engineer Intern" year="2025" company="Thorlabs" />
           <ExperienceCard color="ctfguide-blue" title="Full-stack Software Engineer" year="2025" company="CTFGuide" />
           <ExperienceCard color="pennstate-blue" title="Software Engineer & Graphic Designer" year="2025" company="Penn State ACM" />

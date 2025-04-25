@@ -1,15 +1,4 @@
 [
-  { 
-    "color": "tally-sports-green",
-    "year": "2024",
-    "title": "The Sports Pick-up App",
-    "company": "Tally Sports",
-    "points": [
-      "Constructing a purpose-built sports matchmaking application that enables users to discover and join local athletic activities, with functionality specifically engineered around community participation patterns",
-      "Building from scratch using Next.js to display, create events, show statistics and more",
-      "Crafted a Next.js-powered digital platform integrating event management, statistical analysis, and secure user authentication via BetterAuth API for enhanced user verification"
-    ]
-  },
   {
     "color": "pennstate-blue",
     "year": "2023",

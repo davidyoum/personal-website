@@ -18,6 +18,7 @@ const colorClasses = {
   'tally-sports-green': 'hover:text-[#00ff30]',
   'discord-blue': 'hover:text-[#5865f2]',
   'daska-blue': 'hover:text-[#00c0ff]',
+  'black': 'hover:text-[#000000]',
 };
 
 export default function ExperienceCard({ company, title, year, link, color, points }: ExperienceCard) {

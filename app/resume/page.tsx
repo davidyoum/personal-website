@@ -27,6 +27,14 @@ export default function Resume() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
             <ExperienceCard
+              title="Founder"
+              company="Stealth Startup"
+              time="May 2024-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGhlCVGEoFzuMQ2VRsogi1HXNPeh7bAGkWjU5I"
+              link="https://www.thorlabs.com"
+            />
+            
+            <ExperienceCard
               title="Incoming Full-stack SWE Intern"
               company="Thorlabs"
               time="May 2025-August 2025"
@@ -59,7 +67,7 @@ export default function Resume() {
             />
           </div>
 
-          <h1 className="text-6xl font-tinos mt-6 mb-6">Projects</h1>
+          {/* <h1 className="text-6xl font-tinos mt-6 mb-6">Projects</h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
             <ExperienceCard
@@ -68,7 +76,7 @@ export default function Resume() {
               time="May 2024-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5zuYAjhiYJHnG0pieFSm29BdVyNAfLuOQvWa"
             />
-          </div>
+          </div> */}
 
           <div className="text-black text-center text-xl mt-24 text-md">
             Get in touch <a className="text-blue-500 hover:text-blue-300" href="mailto:davidyoum@yahoo.com">here</a>
