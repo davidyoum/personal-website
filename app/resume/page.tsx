@@ -31,7 +31,7 @@ export default function Resume() {
               company="Stealth Startup"
               time="May 2024-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGhlCVGEoFzuMQ2VRsogi1HXNPeh7bAGkWjU5I"
-              link="https://www.thorlabs.com"
+              link=""
             />
             
             <ExperienceCard
