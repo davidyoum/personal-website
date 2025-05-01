@@ -27,10 +27,18 @@ export default function Resume() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
             <ExperienceCard
+              title="AI Solutions Engineer"
+              company="Nittany AI Alliance"
+              time="August 2025-December 2025"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG1Noi5kUbeCVDalPm4jfKT2oGvtZWXHdYnsAO"
+              link="https://nittanyai.psu.edu/alliance-programs/nittany-ai-advance/"
+            />
+
+            <ExperienceCard
               title="Founder"
-              company="Stealth Startup"
-              time="May 2024-Present"
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGhlCVGEoFzuMQ2VRsogi1HXNPeh7bAGkWjU5I"
+              company="Tally Sports"
+              time="April 2025-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGpz0Xr7SJQHADaZj3Ru04TEV1ytGMw7lC5mNh"
               link=""
             />
             
