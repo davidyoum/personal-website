@@ -21,9 +21,10 @@ export default function Experience() {
         <h1 className="text-6xl font-tinos">Experience</h1>
 
         <div className="mt-10 space-y-5">
-          <ExperienceCard color="pennstate-blue" title="AI Solutions Engineer" year="August 2025" company="Nittany AI Alliance (West Shore Home)" />
+          <ExperienceCard color="pennstate-blue" title="AI Solutions Engineer Intern" year="August 2025" company="West Shore Home" />
+          <ExperienceCard color="pennstate-blue" title="Grader for CMPSC 221" year="August 2025" company="Penn State University" />
           <ExperienceCard color="tally-sports-green" title="Founder" year="April 2025" company="Tally Sports" />
-          <ExperienceCard color="thorlabs-red" title="Incoming Full-stack Software Engineer Intern" year="May 2025" company="Thorlabs" />
+          <ExperienceCard color="thorlabs-red" link="thorlabs2025" title="Full-stack Software Engineer Intern" year="May 2025" company="Thorlabs" />
           <ExperienceCard color="ctfguide-blue" title="Full-stack Software Engineer" year="March 2025" company="CTFGuide" />
           <ExperienceCard color="pennstate-blue" title="Software Engineer & Graphic Designer" year="February 2025" company="Penn State ACM" />
           <ExperienceCard color="thorlabs-red" link="thorlabs2024" title="Full-stack Software Engineer Intern" year="May 2024" company="Thorlabs" />

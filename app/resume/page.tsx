@@ -11,8 +11,7 @@ export default function Resume() {
           <h1 className="text-6xl mb-6">Resume</h1>
 
           <div className="text-gray-700 text-center mt-10 text-xl">
-            Hi my name is David. I'm a student at Penn State University studying Computer Science minoring in Mathematics. 
-            I could relocate to New York Metropolitan Area or Tampa, FL. I am a full stack developer with experience and looking to expand my knowledge on the subject.
+          Hi, my name is David. I’m a Computer Science student at Penn State University with a minor in Mathematics. Based in Sparta, NJ, I’m a full stack developer with hands-on experience and a strong interest in expanding my knowledge in the field.
           </div>
 
           <h1 className="text-6xl font-tinos mt-6 mb-6">Education</h1>
@@ -20,17 +19,25 @@ export default function Resume() {
           <div className="font-instrument">
             <EducationCard school="Penn State University" degree="B.S. in Computer Science, Minor in Mathematics" graduation="Aug 2022 - May 2026" />
             <EducationCard school="Stevens Institute of Technology" degree="Pre-college Computer Science Program - Intermediate" graduation="Jul 2021 - Aug 2021" />
-            <EducationCard school="Sparta High School" degree="High School Diploma" graduation="Aug 2018 - May 2022" />
           </div>
 
           <h1 className="text-6xl font-tinos mt-6 mb-6">Experiences</h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
+
             <ExperienceCard
-              title="AI Solutions Engineer"
-              company="Nittany AI Alliance"
-              time="August 2025-December 2025"
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG1Noi5kUbeCVDalPm4jfKT2oGvtZWXHdYnsAO"
+              title="Grader for CMPSC 221"
+              company="Penn State University"
+              time="August 2025-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGMhWyIUq1hHtRVKvpfCAJ5QlgGiYIPsxjczeD"
+              link="https://www.eecs.psu.edu/departments/EECS-Departments-Computer-Science-Engineering3.aspx"
+            />
+
+            <ExperienceCard
+              title="AI Solutions Engineer Intern"
+              company="West Shore Home"
+              time="August 2025-Present"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGTQTTksPdhOKIbNePalAx3LFCgRMD9rnvVJ1z"
               link="https://nittanyai.psu.edu/alliance-programs/nittany-ai-advance/"
             />
 
@@ -43,7 +50,7 @@ export default function Resume() {
             />
             
             <ExperienceCard
-              title="Incoming Full-stack SWE Intern"
+              title="Full-stack SWE Intern"
               company="Thorlabs"
               time="May 2025-August 2025"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnG5ZZ3PliYJHnG0pieFSm29BdVyNAfLuOQvWaZ"

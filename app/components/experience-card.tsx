@@ -43,7 +43,7 @@ export default function ExperienceCard({ company, title, year, link, color, poin
         </a>
       ) : (
         <div 
-          className={`w-full bg-transparent rounded-md ${hoverClass} cursor-pointer`}
+          className={`w-full bg-transparent rounded-md ${hoverClass} cursor-not-allowed`}
           onClick={toggleAccordion}
         >
           <div className='flex justify-between items-center'>

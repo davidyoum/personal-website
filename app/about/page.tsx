@@ -11,8 +11,7 @@ export default function About() {
 
         <div className="mt-10 space-y-5">
           <div className="text-center text-gray-700 text-xl">
-            Hi my name is David. Here is a more personal look into me and nothing really professional is here. 
-            I would be more than happy to talk about any of the topics I wrote about so, shoot me a message!
+          Hi, my name is David. Here’s a more personal look into me—nothing professional here. I’d be more than happy to chat about any of the topics I wrote about, so feel free to shoot me a message!
           </div>
 
           <div className="flex flex-col lg:flex-row gap-4 items-center w-full">
@@ -35,14 +34,10 @@ export default function About() {
             <div className="flex flex-col p-3 gap-4 font-tinos">
               <h2 className="text-xl font-bold">How I started.</h2>
               <p className="mt-3 max-w-[3000px]">
-                My coding journey started when I was in elementary school working on my first Roblox game.
-                Around middle school time, I started to get more interested in YouTube and started my photoshop creative journey.
-                In high school, I took computer science classes and my interest grew with the help of an amazing teacher.
-                From there, I went on to learn Python and Java in class while self-teaching myself  C++ during COVID times.
-                Then, the rest was history with college studying at Penn State University.
+                My coding journey began back in elementary school when I worked on my first Roblox game. By middle school, I started exploring YouTube and discovered a passion for creativity through Photoshop. In high school, I took computer science classes, where my interest grew thanks to an amazing teacher. From there, I learned Python and Java in class while teaching myself C++ during COVID. The rest is history—now I’m studying Computer Science at Penn State University.
               </p>
               <div className="mt-4">
-                Now, I have a problem of criticing every website and UI/UX I visit if I see one.
+                These days, I can’t help but critique every website or app I use, especially when it comes to UI/UX.
               </div>
             </div>
           </div>
@@ -73,17 +68,17 @@ export default function About() {
                     <li>Sports (Soccer, Basketball, Track)</li>
                     <li>Car Detailing</li>
                     <li>Video Games (FIFA, Valorant)</li>
-                    <li>Cooking</li>
+                    
                     <li className="text-gray-100">Eating 40lbs of food!</li>
                   </ul>
                 </div>
                 <div className="mt-3">
                   <ul className="list-disc ml-6 mt-2 space-y-1">
-                    <li>Sports (mainly soccer)</li>
                     <li>Fashion</li>
                     <li>Cars</li>
                     <li>Computers</li>
                     <li>AI/ML</li>
+                    <li>Cooking</li>
                   </ul>
                 </div>
               </div>

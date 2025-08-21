@@ -15,18 +15,18 @@ export default function Home() {
             <Image src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGeFaDQ4vzyxiH2XIftALjS6YUruec7kop4RT5" alt="Headshot" width={150} height={100} />
             <div>
               <h1 className="text-2xl">David Youm</h1>
-              <p>Founder @ Tally Sports | SWE @ CTFGuide | CS + Math @ Penn State</p>
+              <p>AI Solutions Engineer Intern @ West Shore Home</p>
+              <p>CS + Math @ Penn State</p>
             </div>
             <div className="mt-4">
               Hello, my name is David. I am a full-stack developer
               excited to build products in a fast environment
               and learn new things.
-              Currently, I am working at CTFGuide
-              and will be interning at Thorlabs this summer.
+              Currently, I am working as an AI Solutions Engineer Intern at West Shore Home.
             </div>
             <div className="mt-4 ml-4">
               <ul>
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 hover:underline">
                   <a className="flex items-center gap-2" href="/experience">
                     Experience
                     <svg
@@ -46,7 +46,7 @@ export default function Home() {
                   </a>
                 </li>
 
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 hover:underline">
                   <a className="flex items-center gap-2" href="/about">
                     About Me
                     <svg
@@ -66,7 +66,7 @@ export default function Home() {
                   </a>
                 </li>
 
-                <li className="flex items-center gap-2">
+                <li className="flex items-center gap-2 hover:underline">
                   <a className="flex items-center gap-2" href="/resume">
                     Resume
                     <svg
