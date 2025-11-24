@@ -4,7 +4,7 @@ import Footer from "@/app/components/footer";
 import projects from './projects.json';
 
 type Projects = {
-  color?: 'thorlabs-red' | 'pennstate-blue' | 'ctfguide-blue' | 'tally-sports-green' | 'discord-blue' | 'daska-blue';
+  color?: 'thorlabs-red' | 'pennstate-blue' | 'ctfguide-blue' | 'tally-sports-green' | 'discord-blue' | 'daska-blue' | 'lockheed-martin-space-blue';
   year: string;
   title: string;
   company: string;
@@ -21,7 +21,8 @@ export default function Experience() {
         <h1 className="text-6xl font-tinos">Experience</h1>
 
         <div className="mt-10 space-y-5">
-          <ExperienceCard color="pennstate-blue" title="AI Solutions Engineer Intern" year="August 2025" company="West Shore Home" />
+          <ExperienceCard color="lockheed-martin-space-blue" title="Incoming Software Engineer" year="N/A" company="Lockheed Martin Space" />
+          <ExperienceCard color="pennstate-blue" title="AI Solutions Engineer Intern" year="August 2025 (Indefinitely Postponed)" company="West Shore Home" />
           <ExperienceCard color="pennstate-blue" title="Grader for CMPSC 221" year="August 2025" company="Penn State University" />
           <ExperienceCard color="tally-sports-green" title="Founder" year="April 2025" company="Tally Sports" />
           <ExperienceCard color="thorlabs-red" link="thorlabs2025" title="Full-stack Software Engineer Intern" year="May 2025" company="Thorlabs" />

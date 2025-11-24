@@ -24,6 +24,14 @@ export default function Resume() {
           <h1 className="text-6xl font-tinos mt-6 mb-6">Experiences</h1>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
+            
+            <ExperienceCard
+              title="Incoming Software Engineer"
+              company="Lockheed Martin"
+              time="N/A"
+              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGWoo8k9dubSwaIiZyGOeFEhPV94ozWNL758Jk"
+              link="https://www.lockheedmartin.com/en-us/who-we-are/business-areas/space.html"
+            />
 
             <ExperienceCard
               title="Grader for CMPSC 221"
@@ -31,14 +39,6 @@ export default function Resume() {
               time="August 2025-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGMhWyIUq1hHtRVKvpfCAJ5QlgGiYIPsxjczeD"
               link="https://www.eecs.psu.edu/departments/EECS-Departments-Computer-Science-Engineering3.aspx"
-            />
-
-            <ExperienceCard
-              title="AI Solutions Engineer Intern"
-              company="West Shore Home"
-              time="August 2025-Present"
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGTQTTksPdhOKIbNePalAx3LFCgRMD9rnvVJ1z"
-              link="https://nittanyai.psu.edu/alliance-programs/nittany-ai-advance/"
             />
 
             <ExperienceCard
@@ -63,14 +63,6 @@ export default function Resume() {
               time="March 2025-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGiF7rjPbkqwfp208a3czseQhtCrvH4P7ALudN"
               link="https://ctfguide.com"
-            />
-
-            <ExperienceCard
-              title="SWE & Graphic Designer"
-              company="Penn State ACM"
-              time="Jan 2025-Present"
-              image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGKNK5L8Mnv36ejLY0d5yZaWQfHlJKSOIq1cp2"
-              link="https://acm.psu.edu/"
             />
 
             <ExperienceCard

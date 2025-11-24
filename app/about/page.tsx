@@ -68,8 +68,8 @@ export default function About() {
                     <li>Sports (Soccer, Basketball, Track)</li>
                     <li>Car Detailing</li>
                     <li>Video Games (FIFA, Valorant)</li>
+                    <li>Cooking</li>
                     
-                    <li className="text-gray-100">Eating 40lbs of food!</li>
                   </ul>
                 </div>
                 <div className="mt-3">
@@ -78,7 +78,7 @@ export default function About() {
                     <li>Cars</li>
                     <li>Computers</li>
                     <li>AI/ML</li>
-                    <li>Cooking</li>
+                    <li className="text-gray-100">Eating 40lbs of food!</li>
                   </ul>
                 </div>
               </div>

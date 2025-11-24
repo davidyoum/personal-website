@@ -19,6 +19,7 @@ const colorClasses = {
   'discord-blue': 'hover:text-[#5865f2]',
   'daska-blue': 'hover:text-[#00c0ff]',
   'black': 'hover:text-[#000000]',
+  'lockheed-martin-space-blue': 'hover:text-[#003478]',
 };
 
 export default function ExperienceCard({ company, title, year, link, color, points }: ExperienceCard) {
