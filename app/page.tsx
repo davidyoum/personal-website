@@ -15,14 +15,13 @@ export default function Home() {
             <Image src="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGeFaDQ4vzyxiH2XIftALjS6YUruec7kop4RT5" alt="Headshot" width={150} height={100} />
             <div>
               <h1 className="text-2xl">David Youm</h1>
-              <p>Incoming Software Engineer @ Lockheed Martin Space</p>
+              <p>Software Engineer @ Lockheed Martin Space</p>
               <p>CS + Math @ Penn State 26'</p>
             </div>
             <div className="mt-4">
               Hello, my name is David. I am a full-stack developer
               excited to build products in a fast environment
-              and learn new things.
-              Currently, I am the director of Web Development at Penn State ACM and a grader for CMPSC 221: OOP with Java.
+              and learn new things. Click the links below to learn more about me and my work.
             </div>
             <div className="mt-4 ml-4">
               <ul>

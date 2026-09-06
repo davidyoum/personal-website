@@ -10,10 +10,6 @@ export default function Resume() {
         <div className="w-full font-tinos md:w-2/3 mx-auto p-5">
           <h1 className="text-6xl mb-6">Resume</h1>
 
-          <div className="text-gray-700 text-center mt-10 text-xl">
-          Hi, my name is David. I’m a Computer Science student at Penn State University with a minor in Mathematics. Based in Sparta, NJ, I’m a full stack developer with hands-on experience and a strong interest in expanding my knowledge in the field.
-          </div>
-
           <h1 className="text-6xl font-tinos mt-6 mb-6">Education</h1>
 
           <div className="font-instrument">
@@ -26,9 +22,9 @@ export default function Resume() {
           <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 gap-12 md:justify-between w-full">
             
             <ExperienceCard
-              title="Incoming Software Engineer"
-              company="Lockheed Martin"
-              time="N/A"
+              title="Software Engineer"
+              company="Lockheed Martin Space"
+              time="August 2026-Present"
               image="https://7cmg2xsea6.ufs.sh/f/54MIQGiYJHnGWoo8k9dubSwaIiZyGOeFEhPV94ozWNL758Jk"
               link="https://www.lockheedmartin.com/en-us/who-we-are/business-areas/space.html"
             />

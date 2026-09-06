@@ -34,7 +34,7 @@ export default function About() {
             <div className="flex flex-col p-3 gap-4 font-tinos">
               <h2 className="text-xl font-bold">How I started.</h2>
               <p className="mt-3 max-w-[3000px]">
-                My coding journey began back in elementary school when I worked on my first Roblox game. By middle school, I started exploring YouTube and discovered a passion for creativity through Photoshop. In high school, I took computer science classes, where my interest grew thanks to an amazing teacher. From there, I learned Python and Java in class while teaching myself C++ during COVID. The rest is history—now I’m studying Computer Science at Penn State University.
+                My coding journey began back in elementary school when I worked on my first Roblox game. By middle school, I started exploring YouTube and discovered a passion for creativity through Photoshop. In high school, I took computer science classes, where my interest grew thanks to an amazing teacher. From there, I learned Python and Java in class while teaching myself C++ during COVID.
               </p>
               <div className="mt-4">
                 These days, I can’t help but critique every website or app I use, especially when it comes to UI/UX.
