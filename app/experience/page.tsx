@@ -3,10 +3,6 @@ import ExperienceCard from "@/app/components/experience-card";
 import Footer from "@/app/components/footer";
 import projects from './projects.json';
 
-// TODO: Cache Components adoption. Refactor this route so this opt-out can be removed.
-// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
-export const instant = false;
-
 type Projects = {
   color?: 'thorlabs-red' | 'pennstate-blue' | 'ctfguide-blue' | 'tally-sports-green' | 'discord-blue' | 'daska-blue' | 'lockheed-martin-space-blue';
   year: string;
